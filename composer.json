@@ -1,0 +1,20 @@
+{
+  "name": "epp/bracketed",
+  "description": "Checks if all brackets in a string are closed",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "evgeniyPP",
+      "email": "aysanru@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Epp\\Bracketed\\": "src/Bracketed/"
+    }
+  }
+}
